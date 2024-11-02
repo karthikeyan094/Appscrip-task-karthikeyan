@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className={styles.infopart}>
                 <p className={styles.font1}>CONTACT US</p>
-                <p className={styles.mt}>6383451650</p>
+                <p className={styles.mt}>+91 6383451650</p>
                 <p className={styles.mt}>karthikeyan.off@gmail.com</p>
                 <p className={styles.currency}>CURRENCY</p>
                 <div className={`${styles.usabox}`}>

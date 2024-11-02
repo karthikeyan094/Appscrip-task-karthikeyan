@@ -53,7 +53,7 @@ const Home = () => {
             <div className={styles.toppart} onMouseLeave={handleMouseLeave}>
                 <div className={styles.topin} onMouseLeave={handleMouseLeave}>
                     <h1 className={styles.hedding}>DISCOVER OUR PRODUCTS</h1>
-                    <p className={styles.para1}>Welcome to our shopping app, where convenience meets style! Explore our curated collection and discover your next favorite finds with just a click.</p>
+                    <p className={styles.para1}>Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.</p>
                 </div>
             </div>
             <div className={styles.filterbar} onMouseLeave={handleMouseLeave}>

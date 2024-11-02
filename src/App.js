@@ -6,6 +6,8 @@ import Navbar from './component/Navbar'
 import Home from './component/Home';
 import ProductListning from './component/ProductListning';
 import Footer from './component/Footer';
+import {Provider }from 'react-redux'
+import store from './redux/store'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,11 +15,11 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <Provider store={store}>
     <Navbar />
-    <Routes>
-    <Route path="Appscrip-task-karthikeyan/" element={<ProductListning/>} />
-    </Routes>
+    <ProductListning />
     <Footer/>
+    </Provider>
     </BrowserRouter>
     </>
   )

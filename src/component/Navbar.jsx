@@ -21,8 +21,8 @@ function Navbar() {
     setIsActive(false)
   }
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <nav className={`${styles.navbar}`}>
           {/* logo */}
           <div className={styles.logobox}>
